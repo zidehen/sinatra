@@ -7,7 +7,7 @@ get '/random-cat' do
 end
 
 get '/named-cat' do
-  params
+  p params
   @random_name = params[:name]
   erb :index
 end
